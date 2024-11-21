@@ -1,0 +1,35 @@
+{
+  "name": "Wildann Hermawan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "start",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "whatsapp-bot-ai"
+  ],
+  "author": "Wildannn",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "chokidar": "^3.6.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsdom": "^16.5.0",
+    "moment-timezone": "^0.5.33",
+    "node-webpmux": "^3.2.0",
+    "path": "^0.12.7"
+  }
+}
