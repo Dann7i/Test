@@ -7,4 +7,5 @@
 - 📧 Reach me at: [hermawanwildan78@gmail.com](mailto:hermawanwildan78@gmail.com)  
 
 ## Projects  
-a WA bot
+Wa bot
+
