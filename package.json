@@ -1,35 +1,27 @@
 {
-  "name": "Wildann Hermawan",
+  "name": "test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "type": "module",
+  "description": "youuuu",
+  "main": "index.js",
   "scripts": {
-    "test": "start",
-    "start": "node index"
+    "tobelove": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Dann7i/Test.git"
   },
-  "keywords": [
-    "whatsapp-bot-ai"
-  ],
-  "author": "Wildannn",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Dann7i/Test/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Dann7i/Test#readme",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
-    "chalk": "^3.0.0",
-    "cheerio": "^1.0.0-rc.12",
-    "chokidar": "^3.6.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "jsdom": "^16.5.0",
-    "moment-timezone": "^0.5.33",
-    "node-webpmux": "^3.2.0",
-    "path": "^0.12.7"
+    "chalk": "^5.5.0",
+    "figlet": "^1.8.2",
+    "inquirer": "^12.9.1",
+    "node-emoji": "^2.2.0"
   }
 }
