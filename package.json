@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "youuuu",
-  "main": "index.js",
+  "main": "./main/index.js",
   "scripts": {
     "tobelove": "nodemon index.js"
   },

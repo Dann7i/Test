@@ -1,6 +1,6 @@
 import chalk from "chalk";
 import figlet from "figlet";
-import inqui from "inquirer"; 
+import inqui from "inquirer";
 import * as emoji from "node-emoji";
 
 const quest = [
@@ -11,20 +11,20 @@ const quest = [
     choices: ["Merah", "Hijau", "Kuning", "Biru"],
   },
 ];
-main()
+main();
 async function main() {
   //console.log(quest[0])
   console.log(chalk.red(figlet.textSync("HAI")));
   const answerd = await inqui.prompt(quest[0]);
   let colord = chalk.white;
-  const lovveYouuu = true
+  const lovveYouuu = true;
   let emojIcon = "";
-  
+
   switch (answerd.answer) {
     case "Merah":
-     // if(lovveYouuu) {
-        //console.log(chalk.red("Merah itu penuh semangat dan cinta"))
-     // }
+      // if(lovveYouuu) {
+      //console.log(chalk.red("Merah itu penuh semangat dan cinta"))
+      // }
       colord = chalk.red;
       emojIcon = emoji.get("heart");
       break;
@@ -44,6 +44,6 @@ async function main() {
       colord = chalk.white;
       emojIcon = "";
   }
-  
+
   console.log(colord(`kamu memilih warna: ${answerd.answer} ${emojIcon}`));
 }
